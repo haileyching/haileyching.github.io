@@ -26,6 +26,8 @@ github_username: username
 minimal_mistakes_skin: default
 search: true
 
+# Hello! This is Hailey. I'm gonna be uploading more of my portfolio soon, but for now, please take a look at the blogs.
+
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
@@ -61,8 +63,8 @@ plugins:
 
 author:
   name   : "Hailey Ching"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  avatar : "/assets/images/pfp.png"
+  bio    : "3rd year physics student at University of Cambridge"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
