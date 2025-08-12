@@ -6,10 +6,7 @@ categories:
 tags:
   - 
 ---
-
-# Mental Loops
-
-I've gotten quite interested in how the human mind works. I've discovered last year that my brain will continuously repeat certain simulations of actions or conditions. I call these Mental Loops.
+I've gotten quite interested in how the human mind works. I've discovered last year that my brain will continuously repeat certain simulations of actions or conditions. I call these **Mental Loops**.
 
 Physical examples include rowing(both sweep and scull), pool shots, and swimming. For rowing, it's probably because it really matters to me (high significance) and I'm excited about it so the brain wants to prepare myself for delivering the best technique. For pool, it's even more interesting. Not only that it will simulate my cue movement, it'll also "predict" the trajectory of both balls. I think I was playing it so much that my brain can keep reinforcing the simulation.
 

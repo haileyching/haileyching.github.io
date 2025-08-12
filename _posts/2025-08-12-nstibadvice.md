@@ -1,18 +1,11 @@
 ---
-title: "NSTIBAdvice"
+title: "Reflections on NSTIB"
 date: 2025-08-12T14:05:14+0100
 categories:
   - blog
 tags: exam
   - 
 ---
-
-**
-
-# Reflections on NSTIB
-
-Please comment directly or email me or smth
-
 ## Introduction
 
 I’m a phys natsci who just finished NSTIB exams (Physics A&B, Maths). Many comments I’ll make below are very specific to these subjects. My results are decent and not the best, but I think it might be interesting to reflect on my preparations for the exams.
