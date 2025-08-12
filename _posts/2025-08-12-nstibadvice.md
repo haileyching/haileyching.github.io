@@ -11,7 +11,7 @@ tags: exam
 
 # Reflections on NSTIB
 
-Please comment directly or email hyhc4 or smth
+Please comment directly or email me or smth
 
 ## Introduction
 
