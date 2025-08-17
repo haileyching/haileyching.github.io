@@ -130,4 +130,4 @@ tag_archive:
 locale: en-GB
 title_separator: "|"
 atom_feed:
-  hide: true #but later may use
+  hide: false #but later may use
