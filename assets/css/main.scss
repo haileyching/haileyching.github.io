@@ -1,0 +1,76 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+/* Custom CSS for optimal readability and margins */
+
+/* Main content container - limit max width for better readability */
+.page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 6vw; /* Responsive side margins */
+}
+
+/* Post content - ensure optimal line length (65-75 characters) */
+.page__content {
+  max-width: 800px;
+  line-height: 1.5; /* Optimal line height */
+  font-size: 18px; /* Good base font size for readability */
+}
+
+/* Archive pages and lists */
+.archive {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 6vw;
+}
+
+/* Homepage content */
+.home {
+  .page__content {
+    max-width: 800px;
+  }
+}
+
+/* Ensure sidebar and main content have proper spacing */
+.sidebar {
+  padding-left: 0;
+  padding-right: 2rem;
+}
+
+@media (max-width: 1024px) {
+  .page {
+    padding: 0 4vw; /* Slightly reduce margins on smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .page {
+    padding: 0 1rem; /* Standard mobile margins */
+  }
+  
+  .page__content {
+    font-size: 17px; /* Slightly smaller on mobile */
+    line-height: 1.4;
+  }
+}
+
+/* Fix any full-width elements that break out of containers */
+.page__hero,
+.page__hero--overlay {
+  margin-left: calc(-6vw);
+  margin-right: calc(-6vw);
+  width: calc(100% + 12vw);
+}
+
+@media (max-width: 768px) {
+  .page__hero,
+  .page__hero--overlay {
+    margin-left: -1rem;
+    margin-right: -1rem;
+    width: calc(100% + 2rem);
+  }
+}
