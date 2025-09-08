@@ -1,85 +1,58 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
+search: false
 ---
+
+@charset "utf-8";
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-/* Custom CSS for optimal readability and margins */
+/* Custom CSS for optimal readability and margins - ADDED AFTER THEME IMPORTS */
 
-/* Fix main content width - limit to readable width */
-.page {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-/* Main content area - proper margins and readable width */
+/* Main content area - limit to readable width with proper margins */
 .page__content {
-  max-width: 65ch; /* 65 characters for optimal readability */
-  margin: 0 auto;
-  padding: 0 2rem;
-  line-height: 1.5;
-  font-size: 18px;
+  max-width: 65ch !important; /* 65 characters for optimal readability */
+  margin: 0 auto !important;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+  line-height: 1.6 !important;
+  font-size: 18px !important;
 }
 
-/* Archive and home page content */
-.archive .page__content,
+/* Archive content - same treatment */
+.archive .page__content {
+  max-width: 65ch !important;
+  margin: 0 auto !important;
+  padding-left: 1rem !important;  
+  padding-right: 1rem !important;
+}
+
+/* Home page content */
 .home .page__content {
-  max-width: 65ch;
-  margin: 0 auto;
-  padding: 0 2rem;
+  max-width: 65ch !important;
+  margin: 0 auto !important;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
 }
 
-/* Archive pages and lists */
-.archive {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 6vw;
+/* Single post layout */
+.single .page__content {
+  max-width: 65ch !important;
+  margin: 0 auto !important;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
 }
 
-/* Homepage content */
-.home {
-  .page__content {
-    max-width: 800px;
-  }
-}
-
-/* Ensure sidebar and main content have proper spacing */
-.sidebar {
-  padding-left: 0;
-  padding-right: 2rem;
-}
-
-@media (max-width: 1024px) {
-  .page {
-    padding: 0 4vw; /* Slightly reduce margins on smaller screens */
-  }
-}
-
+/* Responsive adjustments */
 @media (max-width: 768px) {
-  .page {
-    padding: 0 1rem; /* Standard mobile margins */
-  }
-  
-  .page__content {
-    font-size: 17px; /* Slightly smaller on mobile */
-    line-height: 1.4;
-  }
-}
-
-/* Fix any full-width elements that break out of containers */
-.page__hero,
-.page__hero--overlay {
-  margin-left: calc(-6vw);
-  margin-right: calc(-6vw);
-  width: calc(100% + 12vw);
-}
-
-@media (max-width: 768px) {
-  .page__hero,
-  .page__hero--overlay {
-    margin-left: -1rem;
-    margin-right: -1rem;
-    width: calc(100% + 2rem);
+  .page__content,
+  .archive .page__content,
+  .home .page__content,
+  .single .page__content {
+    font-size: 17px !important;
+    line-height: 1.5 !important;
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
   }
 }
