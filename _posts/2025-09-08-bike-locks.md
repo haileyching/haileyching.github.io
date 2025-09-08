@@ -1,6 +1,6 @@
 ---
 title: "Bike Locks"
-date: 2025-09-08T15:30:00+0100
+date: 2025-09-08T15:30:00+0000
 categories:
   - blog
 tags:

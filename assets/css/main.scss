@@ -7,18 +7,27 @@
 
 /* Custom CSS for optimal readability and margins */
 
-/* Main content container - limit max width for better readability */
+/* Fix main content width - limit to readable width */
 .page {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 6vw; /* Responsive side margins */
 }
 
-/* Post content - ensure optimal line length (65-75 characters) */
+/* Main content area - proper margins and readable width */
 .page__content {
-  max-width: 800px;
-  line-height: 1.5; /* Optimal line height */
-  font-size: 18px; /* Good base font size for readability */
+  max-width: 65ch; /* 65 characters for optimal readability */
+  margin: 0 auto;
+  padding: 0 2rem;
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+/* Archive and home page content */
+.archive .page__content,
+.home .page__content {
+  max-width: 65ch;
+  margin: 0 auto;
+  padding: 0 2rem;
 }
 
 /* Archive pages and lists */
