@@ -1,8 +1,13 @@
 ---
-layout: post
 title: "Learning New Knowledge with AI"
-date: 2025-09-21
-tags: [AI, learning, education, knowledge]
+date: 2025-09-21T13:00:00+0000
+categories:
+  - blog
+tags:
+  - AI
+  - learning
+  - education
+  - knowledge
 ---
 
 # Learning New Knowledge with AI

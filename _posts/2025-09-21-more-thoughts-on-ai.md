@@ -1,8 +1,12 @@
 ---
-layout: post
 title: "AI for Productivity System"
-date: 2025-09-21
-tags: [AI, technology, thoughts]
+date: 2025-09-21T12:00:00+0000
+categories:
+  - blog
+tags:
+  - AI
+  - technology
+  - thoughts
 ---
 
 ## Productivity System
