@@ -1,6 +1,6 @@
 ---
 title: "Learning New Knowledge with AI"
-date: 2025-09-21T13:00:00+0000
+date: 2025-09-21T13:00:00+0100
 categories:
   - blog
 tags:

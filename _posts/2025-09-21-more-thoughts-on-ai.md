@@ -1,6 +1,6 @@
 ---
 title: "AI for Productivity System"
-date: 2025-09-21T12:00:00+0000
+date: 2025-09-21T12:00:00+0100
 categories:
   - blog
 tags:
